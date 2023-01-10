@@ -22,11 +22,6 @@ async function getshow(x){
     }
         
   }
-  
-//   let img = document.createElement("img");
-//   img.src = data[0].show.image.original;
-//   document.body.append(img);
-//   console.log(data[0].show.image.original);
 }
 const inpu = document.querySelector('input');
 const bt = document.querySelector("#s");
