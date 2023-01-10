@@ -1,0 +1,88 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+    background-color: #e76f51;
+    border-radius: 10px;
+    width: 33%;
+    padding: 5px;
+    margin-left: 7px;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 10em;
+    border-radius: 13px;
+}
+
+figure{
+    text-align: center;
+    background-color: #e09f3e;
+    border-radius: 10px;
+    padding: 15px 15px 10px 15px;
+}
+
+figcaption{
+  margin-top: 10px;
+  background-color: #457b9d;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#results{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+input{
+    background-color: #a2d2ff;
+    border: 1px solid #a2d2ff;
+    padding: 5px;
+    border-radius: 7px;
+    color: black;
+    width: 400px;
+    outline: none;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #2a9d8f;
+    border: 1px solid #2a9d8f;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+a, figcaption:hover{
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
